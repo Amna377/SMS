@@ -1,0 +1,28 @@
+.teacherlist-table-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .teacherlist-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teacherlist-th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .teacherlist-td {
+    padding: 10px;
+  }
+ .teacherlist-delete-icon {
+    color: red;
+    margin-right: 10px;
+  }
+  
+.teacherlist-edit-addsteachert{
+    color: #428DFC;
+  }
+  

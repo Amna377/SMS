@@ -1,0 +1,134 @@
+*{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+#h2-addteacher{
+ margin-left: 40px;
+ color: #030813;
+ 
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+
+.popup-content {
+  width: 650px; 
+  background-color: #fff;
+  padding: 20px;
+  height: 70vh;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+#crosspopup {
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+}
+#addTeacher-horizontal-form{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* form.css */
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 50px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+ 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.button-row {
+  display: flex;
+ gap: 10px;
+}
+#addTeacher-button-popup {
+  padding: 10px 10px;
+  margin-top: 17px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #030813;
+}
+
+#addTeacher-add-another {
+  padding: 10px 10px;
+  margin-top: 17px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #030813;
+}
+
+
+
+
+
+button:last-child .fa-plus-circle {
+  margin-right: 5px;
+}
+
+
+#right-button {
+  position: fixed;
+  background-color: #071026;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.my-swal-container {
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+}
+
+.my-swal-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.my-swal-content {
+  font-size: 16px;
+}

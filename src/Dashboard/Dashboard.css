@@ -1,0 +1,64 @@
+.dashboard-container{
+  background-color: #071026;
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+.controls{
+  width: 280px;
+ 
+  border: solid white 1px;
+  border-radius: 5px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+
+.box{
+    padding-left: 35px;
+    width: 30%; /* Adjust the width as needed */
+  height: 160px; /* Set your desired height */
+  background-color: #3498db; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  text-align: left;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 5px;
+}
+.button{
+    padding-left: 35px;
+    width: 30%; 
+  height: 30px; 
+  background-color: #84B2F5; 
+  color: #fff; 
+  text-align: left;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -10px;
+}
+h1 {
+    font-size: 22px; 
+    color: white; 
+    text-align: center; 
+    margin-top: 20px; /* Set margin-top for spacing */
+  }
+  .Chart-main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 0 20px;
+  }
